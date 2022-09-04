@@ -1,5 +1,5 @@
 # Assignment - 1 AirBnB Critique
-![alt text](https://en.wikipedia.org/wiki/Airbnb#/media/File:Airbnb_Logo_B%C3%A9lo.svg)
+![alt text](https://www.digital.ink/wp-content/uploads/airbnb_logo_detail.jpg)
 AirBnb, short for its formal name,AirBreadAndBreakfast, is a platform that provides lodging and housestays globally. Based out of California, the company now covers almost the entire globe with listings from over 100,000 cities in the world. The company currently has over 150 million users and serves half a billion guests per year.
 
 ## What AirBnB does right
