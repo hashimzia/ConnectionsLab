@@ -1,1 +1,10 @@
 # Assignment - 1 Critique
+AirBnb, short for its formal name,AirBreadAndBreakfast, is a platform that provides lodging and housestays globally. Based out of California, the company now covers almost the entire globe with listings from over 100,000 cities in the world. The company currently has over 150 million users and serves half a billion guests per year.
+
+## What AirBnB does right
+Suffice to say, just looking at thets alone it is simple to conclude that AirBnB is massive and and serves a global population. The reason behind AirBnB's boom and success can be narrowed down to how it uses technology to find solutions to problems. An interesting fact to know is that AirBnB does not own any of the properties that are on sale on its marketplace. Instead it is just a place to connect property owners with people who need them. Originally it was thought that AirBnB would capture much of the traditional hotel and lodging industry. However, overtime it has proven to create a market of its own. Hotels over the years have remained consistent with their bookings but AirBnB bookings have skyrocketed. This is because it targetted and hence created a completley new market that it has a monopoly over. AirBnB is now the first thing that pops up when many think of affordable short stays for trips or vacations. This is different from hotels where affordability is not a priority and provides an a different experience altogether.
+
+## App design and engineering
+Personally, both AirBnB's website and mobile apps are very well designed. These use spaces well on the screen and show just enough information. The layout is kept up to date with industry standards and evolves as web design and UI/UX design has evolved over the years.
+AirBnB's employment for software engineers is very selective and in general it employs some of the most skillful and trained developers of the field. This shows throughout their apps as they are not only well designed but also are responsive and intuitive. After the revered MAANG group (Meta, Amazon, Apple, Netflix, Google), AirBnB is one of the top choices for tech engineers.
+
