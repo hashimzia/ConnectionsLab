@@ -12,6 +12,6 @@
 [Implementation](https://hashimzia.github.io/scorekeeper/)
 
 ### Meuseum of candy
-[SourceCode](/Week1/Assignment2/Webpage2)
+[SourceCode](/Week1/Assignment2/webpage2)
 [Implementation](https://hashimzia.github.io/meuseum-of-candy/)
 
