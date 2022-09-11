@@ -1,0 +1,50 @@
+body {
+    height: 2000px;
+    color: rgb();
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(181, 101, 118);
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 500px;
+}
+
+button {
+    width: 200px;
+    border-radius: 25%;
+    background-color: #EAAC8B;
+    border: 0;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 5px 5px #888888;
+    letter-spacing: 7px;
+    transition: 0.2s;
+}
+
+button:hover {
+    box-shadow: 1px 1px yellow;
+    transform: translateX(5px) translateY(5px);
+}
+
+h1,
+h2 {
+    position: fixed;
+    color: #355070;
+    font-size: 2.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    margin-top: 70px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
