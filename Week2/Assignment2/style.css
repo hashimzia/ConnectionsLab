@@ -16,7 +16,7 @@ footer {
     top: 500px;
 }
 
-button {
+/* button {
     width: 200px;
     border-radius: 25%;
     background-color: #EAAC8B;
@@ -31,6 +31,15 @@ button {
 button:hover {
     box-shadow: 1px 1px yellow;
     transform: translateX(5px) translateY(5px);
+} */
+
+textarea {
+    vertical-align: top;
+    margin-top: 20px;
+}
+
+form div {
+    margin-top: 20px;
 }
 
 h1,
@@ -47,4 +56,24 @@ h2 {
 
 html {
     scroll-behavior: smooth;
+}
+
+section {
+    position: fixed;
+    top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+section img {
+    margin-right: 40px;
+    border: 4px solid black;
+    border-radius: 5%;
+}
+
+button {
+    margin: 0 auto;
 }
