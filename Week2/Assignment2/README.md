@@ -2,7 +2,7 @@
 Source code in the root of this folder.
 
 [Live Link](https://hashimzia.github.io/ConnectionsLab/Week2/Assignment2/index.html)
-[Wireframe](/ConnectionsLab/Week2/Assignment2/wireframe02.png)
+[Wireframe](/Week2/Assignment2/wireframe02.png)
 
 ## Learnings
 1. Implement scroll effects
