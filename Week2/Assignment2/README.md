@@ -1,7 +1,7 @@
 # Assignment for week 2
 Source code in the root of this folder.
 
-[Live Link](https://hashimzia.github.io/ConnectionsLab/Week2/Assignment2/index.html
+[Live Link](https://hashimzia.github.io/ConnectionsLab/Week2/Assignment2/index.html)
 
 ## Learnings
 1. Implement scroll effects
