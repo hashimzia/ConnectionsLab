@@ -1,4 +1,4 @@
-# Project 1 Prototype (Work in progress)
+# Project 1 Prototype
 
 ### Files in this directory are a work in progress for project 1 of Connections Lab
 
