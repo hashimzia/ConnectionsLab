@@ -202,8 +202,6 @@ section {
     }
 }
 
-.p5Canvas {
-    position: absolute;
-    left: 45%;
-    top: 45%;
+main {
+    align-self: center;
 }

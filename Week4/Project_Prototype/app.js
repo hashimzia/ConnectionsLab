@@ -1,8 +1,16 @@
 let playButton = document.querySelector('button');
 let higher = document.querySelector("#higher");
 const delay = ms => new Promise(res => setTimeout(res, ms));
+setTimeout(() => {
+    let canvas = document.querySelector('canvas');
+    canvas.classList.add('hidden');
+}, 100);
 
 playButton.addEventListener('click', () => {
+    canvas.classList.remove('hidden');
+    let main = document.querySelector('main');
+    main.remove();
+    document.querySelector("#part1").after(main);
     divs = document.querySelectorAll('.hidden')
     document.querySelector('#start').remove();
     for (let div of divs) {
