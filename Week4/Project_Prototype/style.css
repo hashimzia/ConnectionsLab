@@ -33,9 +33,9 @@ img {
 }
 
 #play:hover {
-    /* Green */
-    color: white;
+    color: rgb(196, 191, 191);
     cursor: pointer;
+    background-color: #2e7a30;
 }
 
 h1 {
@@ -163,6 +163,10 @@ section {
 
 main {
     align-self: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (max-width:800px) {
