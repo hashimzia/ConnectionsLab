@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 100);
 
     playButton.addEventListener('click', () => {
-        debugger
         document.querySelector("h2").classList.remove('hidden');
         canvas.classList.remove('hidden');
         let scoreHTML = document.createElement('h2');
@@ -141,7 +140,6 @@ document.addEventListener('DOMContentLoaded', () => {
         stat2.innerHTML = "?";
         base_stat_total_1 = base_stat_total_2;
         img1.src = img2.src;
-
     }
 
     function lost() {
