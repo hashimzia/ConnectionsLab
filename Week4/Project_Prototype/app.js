@@ -1,5 +1,8 @@
 let playButton = document.querySelector('button');
 let higher = document.querySelector("#higher");
+document.body.addEventListener('click', () => {
+    fade = 0;
+})
 const delay = ms => new Promise(res => setTimeout(res, ms));
 setTimeout(() => {
     let canvas = document.querySelector('canvas');
@@ -61,6 +64,9 @@ playButton.addEventListener('click', () => {
                 randomize();
             }, 1000)
         }
+        else {
+            correct = false;
+        }
     })
     lower.addEventListener('click', async () => {
         let i = 0;
@@ -70,11 +76,15 @@ playButton.addEventListener('click', () => {
         }
         stat2.innerHTML = base_stat_total_2;
         if (base_stat_total_2 <= base_stat_total_1) {
-            alert('correct');
+            correct = true;
             setTimeout(() => {
                 swap();
                 randomize();
             }, 1000)
+        }
+        else {
+            correct = false;
+
         }
     })
 })
