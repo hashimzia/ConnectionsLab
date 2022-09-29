@@ -83,10 +83,13 @@ Currently, when a player guesses wrong and the game ends, the end screen only sh
 Making it more mobile friendly
 The website is currently functional in a mobile environment however most of the elements are not position properly and this hinders the playing experience. In the future a better layout for mobile can be designed to allow it to offer a better playing experience
 ## Credits:
-(PokeAPI)[https://pokeapi.co/about] created by  Paul Hallet, Tim Malone and Alessandro Pezzé
+[PokeAPI](https://pokeapi.co/about) created by  Paul Hallet, Tim Malone and Alessandro Pezzé
+
 (GIF animations)[https://www.pkparaiso.com/xy/sprites_pokemon.php]
+
 (Unsplash Background image)[https://unsplash.com/photos/dip9IIwUK6w] by  (Thimo Pedersen)[https://unsplash.com/@thimo]
- (The Pokemon Company)[https://www.pokemon.com/us/]
+
+(The Pokemon Company)[https://www.pokemon.com/us/]
 
 
 
