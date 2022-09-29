@@ -4,18 +4,39 @@ The Higher Lower Pokémon is a game for the nerdiest Pokémon fans. Test out you
 
 ## Design/Wireframes:
 ### Start Page
+
+
  ![image](https://user-images.githubusercontent.com/108898519/193021070-7e69eb86-cb22-4156-9046-492dcfc86e6b.png)
+ 
+ 
 A simple wireframe for the starting page of the game. It was realized into the following webpage:
+
+
  ![image](https://user-images.githubusercontent.com/108898519/193021103-b500dfc7-a301-4fb8-8290-4b2b12c06eb9.png)
+ 
+ 
 
 The main game page:
+
+
  ![image](https://user-images.githubusercontent.com/108898519/193021119-1d7ed0ab-d11d-4efa-b4a0-df547b7268b7.png)
+ 
+ 
 
 This was realized into the following webpage:
+
+
  ![image](https://user-images.githubusercontent.com/108898519/193021131-87825e0b-5035-41d9-9eac-0e45d12bff69.png)
+ 
+ 
 
 Endpage:
+
+
  ![image](https://user-images.githubusercontent.com/108898519/193021148-76985bfe-6cd4-4deb-939a-b7ae22a8f5a2.png)
+ 
+ 
+ 
 
 
 ## Key Challenges:
