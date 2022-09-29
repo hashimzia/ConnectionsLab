@@ -28,10 +28,17 @@ This specific challenge was overcome by a neat JS trick. In hindsight there are 
 After a higher/lower button is pressed, I wanted to show the numbers rise up to the actual amount, this builds up a little suspicion and improves the game experience. This is done by running a for loop till the actual number and updating the html of the stat every time it is added. The problem was that the for loop runs instantly and there was no wait between the html updating. This also caused the rest of the code to run instantly, the animation should ideally pause the app until it is over.
 This was overcome by creating a time delay using async and await functions in JavaScript.
 First a function was created using Promise to create a synchronous delay function.
- 
+
+
+![image](https://user-images.githubusercontent.com/108898519/193021567-2d622a00-d2f8-44e7-ab19-b4b22e2d4526.png)
+
+
 This waits the milliseconds passed to it before executing the next function.
 A wait of 3 milliseconds for each iteration of the for loop works for a seamless experience.
- 
+
+
+![image](https://user-images.githubusercontent.com/108898519/193021610-71cf7cbb-e018-4724-9053-9b06bcaa2d11.png)
+
 This allows for the application to wait till the animation is over and ensures the animation to appear on the website.
 
 
