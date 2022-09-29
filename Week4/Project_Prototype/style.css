@@ -172,6 +172,7 @@ main {
 @media screen and (max-width:800px) {
     body {
         flex-direction: column;
+        justify-content: flex-start;
     }
 
     div {
@@ -186,6 +187,7 @@ main {
 
     #higher {
         top: 0px;
+        margin-bottom: 0;
     }
 
     #lower {
@@ -196,7 +198,8 @@ main {
         top: 0px;
     }
 
-    #name2 {
+    #name2,
+    #name1 {
         margin-top: 0px;
     }
 
@@ -206,6 +209,29 @@ main {
 
     #higher,
     #lower {
-        transform: scale(1.5);
+        transform: scale(1);
+    }
+
+    #stat1,
+    #stat2 {
+        font-size: 2rem;
+        margin-bottom: 0;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    #defaultCanvas0 {
+        transform: scale(0.7);
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    section {
+        position: relative;
+        top: 10px;
     }
 }

@@ -1,5 +1,6 @@
 function setup() {
     createCanvas(105, 105)
+    mainFunction();
     // frameRate(1);
 }
 let correct = null;

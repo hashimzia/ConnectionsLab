@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+function mainFunction() {
     let playButton = document.querySelector('button');
     let higher = document.querySelector("#higher");
     let score = 0;
@@ -157,4 +157,4 @@ document.addEventListener('DOMContentLoaded', () => {
             main.appendChild(lostHTML);
         }, 1000)
     }
-})
+}
