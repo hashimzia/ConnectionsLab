@@ -66,7 +66,15 @@ This allows for the application to wait till the animation is over and ensures t
 ### Ensuring code runs in order/after things are loaded
 A key problem while using multiple libraries and APIs is that many of these functions/operations take a certain random amount of time which can not be statically accounted for as a developer. To ensure everything runs in an order that allows things to function properly, the  body of the entire app.js file was wrapped in a “mainFunction()”. This only runs after a canvas has been created by the p5JS library. This allows me to position and run the animations properly after everything is loaded and does makes sure the order of operations is not messed up.
 
+
+![image](https://user-images.githubusercontent.com/108898519/193021845-da1481f4-1095-45db-a676-eaeb43cf55f0.png)
+
+
+
 This entire main function is called only when the canvas is created.
+
+![image](https://user-images.githubusercontent.com/108898519/193021867-f9428690-dae8-4c6a-bf9c-b362b120c932.png)
+
  
 
 ## Next Steps:
@@ -75,10 +83,10 @@ Currently, when a player guesses wrong and the game ends, the end screen only sh
 Making it more mobile friendly
 The website is currently functional in a mobile environment however most of the elements are not position properly and this hinders the playing experience. In the future a better layout for mobile can be designed to allow it to offer a better playing experience
 ## Credits:
-PokeAPI created by 
-GIF animations by 
-Unsplash Background image: 
-The Pokemon Company
+(PokeAPI)[https://pokeapi.co/about] created by  Paul Hallet, Tim Malone and Alessandro Pezzé
+(GIF animations)[https://www.pkparaiso.com/xy/sprites_pokemon.php]
+(Unsplash Background image)[https://unsplash.com/photos/dip9IIwUK6w] by  (Thimo Pedersen)[https://unsplash.com/@thimo]
+ (The Pokemon Company)[https://www.pokemon.com/us/]
 
 
 
