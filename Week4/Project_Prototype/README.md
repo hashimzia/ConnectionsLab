@@ -85,11 +85,11 @@ The website is currently functional in a mobile environment however most of the 
 ## Credits:
 [PokeAPI](https://pokeapi.co/about) created by  Paul Hallet, Tim Malone and Alessandro Pezzé
 
-(GIF animations)[https://www.pkparaiso.com/xy/sprites_pokemon.php]
+[GIF animations](https://www.pkparaiso.com/xy/sprites_pokemon.php)
 
-(Unsplash Background image)[https://unsplash.com/photos/dip9IIwUK6w] by  (Thimo Pedersen)[https://unsplash.com/@thimo]
+[Unsplash Background image](https://unsplash.com/photos/dip9IIwUK6w) by  [Thimo Pedersen](https://unsplash.com/@thimo)
 
-(The Pokemon Company)[https://www.pokemon.com/us/]
+[The Pokemon Company](https://www.pokemon.com/us/)
 
 
 
