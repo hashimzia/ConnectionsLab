@@ -6,6 +6,7 @@ function mainFunction() {
         fade = 0;
     })
     const delay = ms => new Promise(res => setTimeout(res, ms));
+
     setTimeout(() => {
         let canvas = document.querySelector('canvas');
         canvas.classList.add('hidden');
