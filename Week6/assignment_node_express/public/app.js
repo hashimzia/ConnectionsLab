@@ -14,7 +14,6 @@ form.addEventListener('input', (event) => {
         })
 
 })
-a
 
 fetch("/movies")
     .then(res => res.json())
