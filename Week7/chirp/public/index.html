@@ -10,14 +10,16 @@
 </head>
 
 <body>
-    <section class="conatiner">
-        <h1>Chirp</h1>
+    <section class="container">
+        <h1 class="heading">Chirp</h1>
+        <ul class="chat__list" id="chat-msgs">
+        </ul>
     </section>
     <section class="chat">
-        <form action="" id="chat-form">
-            <input type="text" placeholder="name" id="chat-name" required>
-            <input type="text" placeholder="messsage" id="chat-msg" required>
-            <button>Send</button>
+        <form id="chat-form" class="chat__form">
+            <input class="chat__input" type="text" placeholder="name" id="chat-name" required />
+            <input class="chat__input" type="text" placeholder="message" id="chat-msg" required />
+            <button class="chat__submit" type="submit" id="submit-button">Send</button>
         </form>
     </section>
     <script src="app.js"></script>

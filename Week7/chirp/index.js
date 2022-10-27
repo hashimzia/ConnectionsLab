@@ -25,7 +25,14 @@ app.post('/messages', (req, res) => {
 })
 
 app.get('/messages', (req, res) => {
-    res.send(msgs);
+    db.find({}).sort({ "createdAt": 1 }).exec((err, docs) => {
+        if (err) {
+            res.json({ task: "task failed" })
+        } else {
+            let obj = { msgs: docs };
+            res.json(obj);
+        }
+    })
 })
 
 app.listen(3000, () => {

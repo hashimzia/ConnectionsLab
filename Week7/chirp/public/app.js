@@ -35,6 +35,21 @@ function refreshMsgs() {
     fetch('/messages')
         .then(res => res.json())
         .then(data => {
-            console.log(data);
+            document.getElementById('chat-msgs').innerHTML = "";
+            let allChats = data.msgs;
+            allChats.forEach((chat) => {
+                let chatContainer = document.createElement('li');
+                let nameElt = document.createElement('p');
+                let msgElt = document.createElement('p');
+                msgElt.innerHTML = chat.msg;
+                nameElt.innerHTML = chat.name;
+                nameElt.classList.add("chat__list-item-name");
+                msgElt.classList.add("chat__list-item-msg");
+
+                chatContainer.appendChild(nameElt);
+                chatContainer.appendChild(msgElt);
+                document.getElementById('chat-msgs').appendChild(chatContainer);
+            })
         })
+
 }
