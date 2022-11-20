@@ -1,7 +1,16 @@
-let socket = io('/publicSpace');
+let socket = io('/privateSpace');
+
+let roomName = window.prompt("enter a room name - animals only")
+console.log("Room: ", roomName);
+
 socket.on("connect", () => {
     console.log("Connection established to socket server")
+    let roomData = {
+        name: roomName
+    }
+    socket.emit('roomJoin', roomData);
 })
+
 
 socket.on("serverData", (data) => {
     console.log(data);
